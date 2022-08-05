@@ -13,4 +13,5 @@ export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
 export PATH=${JAVA_HOME}/bin:$PATH
 ```
  7、让 配置文件 立即生效
+ 
  `source /etc/profile`

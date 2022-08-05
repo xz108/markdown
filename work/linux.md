@@ -6,6 +6,8 @@
 5. sudo apt-get install sysstat安装 
 6. 更新`sudo apt-get update
 `
+创建用户  
+sudo adduser tt
 6. 安装docker
    `curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun` 
 <br>docker -v
@@ -16,7 +18,8 @@ docker run -p 6379:6379 -d redis:latest redis-server`
 
 <br>
 <br>查看所有的容器命令如下：
-<br>`docker ps -a`
+   
+   `docker ps -a`
 <br>使用 docker start 启动一个已停止的容器：
 <br>docker start b750bbbcfd88 
 <br>在大部分的场景下，我们希望 docker 的服务是在后台运行的，我们可以过 -d 指定容器的运行模式。
@@ -42,3 +45,6 @@ systemctl enable docker
 3. 停止docker
 systemctl stop docker
 C:\Users\admin\.vscode\work\linux.md
+4. 删除docker容器  
+   docker rm -f [docker-name]
+5. docker history
