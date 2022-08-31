@@ -10,6 +10,7 @@
 sudo adduser tt
 6. 安装docker
    `curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun` 
+   
 <br>docker -v
 <br>docker pull redis
 <br>以下命令使用 ubuntu 镜像启动一个容器，参数为以命令行模式进入该容器：

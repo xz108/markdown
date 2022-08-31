@@ -89,7 +89,6 @@ docker run -it  --name dc01 --volumes-from dc03 zzyy/centos
 输入用户名密码进行登录：
 [plain]  view plain  copy
 docker@default:~$ docker login  
-  
 
 tag修改镜像名称
 推送镜像的规范是：
